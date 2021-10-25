@@ -5,8 +5,6 @@
 #   Set the bash prompt according to:
 #    * the branch/status of the current git repository
 #    * the return value of the previous command
-#    * the fact you just came from Windows and are used to having newlines in
-#      your prompts.
 #
 # USAGE:
 #
