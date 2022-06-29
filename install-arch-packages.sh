@@ -4,3 +4,7 @@ pacman -S \
     mold             # For faster linking \
     noto-fonts-emoji # To render emojis \
     vim              # Because life
+
+yay -S \
+    aur/slack-desktop \
+    aur/visual-studio-code-bin
