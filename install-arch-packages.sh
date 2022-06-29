@@ -1,4 +1,5 @@
 pacman -S \
+    chromium         # Still gotta test in it \
     gnome-keyring    # Otherwise VS code keeps complaining \
     kmix             # To get my volume controls working \
     mold             # For faster linking \
