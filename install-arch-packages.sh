@@ -12,5 +12,5 @@ pacman -S \
 
 yay -S \
     aur/slack-desktop \
-    aur/vim-clipboard \ # To make sure X clipboard works
+    aur/vim-clipboard           # To make sure X clipboard works \
     aur/visual-studio-code-bin
