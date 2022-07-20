@@ -9,8 +9,8 @@ pacman -S \
     ksshaskpass      # Used in `ssh-add.sh` \
     mold             # For faster linking \
     noto-fonts-emoji # To render emojis \
-    vim              # Because life
 
 yay -S \
     aur/slack-desktop \
+    aur/vim-clipboard \ # To make sure X clipboard works
     aur/visual-studio-code-bin
