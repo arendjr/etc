@@ -9,6 +9,8 @@ pacman -S \
     ksshaskpass      # Used in `ssh-add.sh` \
     mold             # For faster linking \
     noto-fonts-emoji # To render emojis \
+    snapper          # For automation of btrfs snapshots \
+    snap-pac         # To automatically create snapshots when running pacman \
 
 yay -S \
     aur/slack-desktop \
