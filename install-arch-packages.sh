@@ -13,6 +13,7 @@ pacman -S \
     snap-pac         # To automatically create snapshots when running pacman \
 
 yay -S \
+    aur/icu69                   # Otherwise VS Code Live Share doesn't work \
     aur/slack-desktop \
     aur/vim-clipboard           # To make sure X clipboard works \
     aur/visual-studio-code-bin
