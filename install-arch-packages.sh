@@ -9,6 +9,7 @@ pacman -S \
     ksshaskpass      # Used in `ssh-add.sh` \
     mold             # For faster linking \
     noto-fonts-emoji # To render emojis \
+    sccache          # For cached Rust builds \
     snapper          # For automation of btrfs snapshots \
     snap-pac         # To automatically create snapshots when running pacman \
 
