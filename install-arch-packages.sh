@@ -14,6 +14,8 @@ pacman -S \
     snap-pac         # To automatically create snapshots when running pacman \
     thermald         # For proper CPU cooling \
 
+sudo systemctl enable thermald
+
 yay -S \
     aur/icu69                   # Otherwise VS Code Live Share doesn't work \
     aur/slack-desktop \
