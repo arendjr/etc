@@ -12,6 +12,7 @@ pacman -S \
     sccache          # For cached Rust builds \
     snapper          # For automation of btrfs snapshots \
     snap-pac         # To automatically create snapshots when running pacman \
+    thermald         # For proper CPU cooling \
 
 yay -S \
     aur/icu69                   # Otherwise VS Code Live Share doesn't work \
