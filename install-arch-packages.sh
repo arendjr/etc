@@ -3,12 +3,14 @@ pacman -S \
     docker \
     gnome-keyring    # Otherwise VS code keeps complaining \
     hack             # Hack font \
+    helix            # The future is now \
     keychain         # To get access to my ssh-agent across terminals \
     kmix             # To get my volume controls working \
     kscreen          # For configuring multi-monitor setup \
     ksshaskpass      # Used in `ssh-add.sh` \
     mold             # For faster linking \
     noto-fonts-emoji # To render emojis \
+    paru             # Yay, but in Rust \
     sccache          # For cached Rust builds \
     snapper          # For automation of btrfs snapshots \
     snap-pac         # To automatically create snapshots when running pacman \
@@ -16,7 +18,9 @@ pacman -S \
 
 sudo systemctl enable thermald
 
-yay -S \
+paru --remove yay    # Be a little contrarian
+paru -S \
+    aur/1password-cli
     aur/icu69                   # Otherwise VS Code Live Share doesn't work \
     aur/slack-desktop \
     aur/vim-clipboard           # To make sure X clipboard works \
