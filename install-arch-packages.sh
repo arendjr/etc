@@ -15,6 +15,7 @@ pacman -S \
     snapper          # For automation of btrfs snapshots \
     snap-pac         # To automatically create snapshots when running pacman \
     thermald         # For proper CPU cooling \
+    xdg-desktop-portal-kde # For desktop sharing \
     xdg-desktop-portal-wlr # For desktop sharing \
 
 sudo systemctl enable thermald
