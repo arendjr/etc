@@ -2,7 +2,6 @@ pacman -S \
     chromium \
     docker \
     gnome-keyring    # Otherwise VS code keeps complaining \
-    hack             # Hack font \
     helix            # The future is now \
     keychain         # To get access to my ssh-agent across terminals \
     kmix             # To get my volume controls working \
@@ -15,6 +14,7 @@ pacman -S \
     snapper          # For automation of btrfs snapshots \
     snap-pac         # To automatically create snapshots when running pacman \
     thermald         # For proper CPU cooling \
+    ttf-hack         # Hack font \
     xdg-desktop-portal-kde # For desktop sharing \
     xdg-desktop-portal-wlr # For desktop sharing \
 
